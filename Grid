@@ -1,0 +1,26 @@
+<section class="seccion">
+    <h1 class="text-center my-5 heading">Grid</h1>
+    <div class="container-xl">
+      <div class="row">
+        <div class="col-md-5">
+          <form class="row ">
+            <div class="col-md-4">
+              <label for="validationDefault01" class="form-label ">First name</label>
+              <input type="text" class="form-control bord" id="validationDefault01" value="Mark" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefault01" class="form-label ">First name</label>
+              <input type="text" class="form-control bord" id="validationDefault01" value="Mark" required>
+            </div>            
+            <div class="col-md-4">
+              <label for="validationDefault01" class="form-label ">First name</label>
+              <input type="text" class="form-control bord" id="validationDefault01" value="Mark" required>
+            </div>               
+            <div class="col-md-4">
+              <label for="validationDefault01" class="form-label ">First name</label>
+              <input type="text" class="form-control bord" id="validationDefault01" value="Mark" required>
+            </div>
+          </form>
+      </div>
+    </div>
+  </section>
