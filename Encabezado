@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introducción a Bootstrap</title>
+
+ <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+ integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
+ integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+ integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+ crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!--  https://openwebinars.net/blog/tutorial-de-bootstrap-3-elementos/-->
+
+  <section class="seccion" style="padding:0px;">
+     <div class="container-xl bg-primary">
+         <div class="row">
+           <div class="col-md-4">
+            <p>Buzon: prueba</p>
+            <p>Nombre: Prueba de Nombre</p>
+            <p>Fecha: 01/05/2023</p>
+            
+           </div>
+           <div class="col-sm-6 col-md-5">
+            <h2 >Servicio de Buro Electronico</h2>
+           </div>
+           <div class="col-sm-6 col-md-3">
+            <div class="">
+              <div class="row media">
+                <div class="media-right" style="width: 150px;height: 100px;">        
+                   <img class="img-responsive media-object" src="img/curso_1.jpg" alt="imagen curso">
+                </div>
+             </div> 
+            </div>
+          </div>
+         </div>
+      </div>
+  </section>
+
+  <!-- Single button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Action <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+
+  <div class="media col-md-4">
+    <div class="row media-right"  style="width: 150px;height: 100px;">
+
+        <img class="media-object"  src="img/curso_1.jpg" alt="...">
+  
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">Media heading</h4>
+      ...
+    </div>
+  </div>
+
+  
+
+</body>
+
+
+</html>
